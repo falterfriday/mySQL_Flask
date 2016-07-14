@@ -1,0 +1,15 @@
+1.
+mysql_exceptions.OperationalError) (1045, "Access denied for user 'patrick'@'localhost' (using password: YES)
+--supplied no username--
+	Add username "root"
+
+2.
+sqlite3.OperationalError) no such table: users [SQL: u'SELECT * FROM users']
+--use a ' ' instead of '_' in app.config--
+	use '_' not ' '
+
+3.
+ImportError: cannot import name MySQLConnector
+--misspelled MySQLConnector--
+	use correct spelling
+
